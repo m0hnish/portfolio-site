@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="#" class="nav-logo">Portfolio</a>
+    <div class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#youtube">YouTube</a>
+      <a href="#about">About</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="12" cy="12" r="5"/>
+          <line x1="12" y1="1" x2="12" y2="3"/>
+          <line x1="12" y1="21" x2="12" y2="23"/>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="1" y1="12" x2="3" y2="12"/>
+          <line x1="21" y1="12" x2="23" y2="12"/>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+        <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <p class="hero-label">Designer & Creator</p>
+    <h1 class="hero-title">Crafting digital<br>experiences that<br>feel effortless.</h1>
+    <p class="hero-subtitle">A curated collection of design work and creative explorations.</p>
+    <a href="#work" class="hero-cta">View Work</a>
+  </section>
+
+  <!-- Portfolio Grid -->
+  <section class="section" id="work">
+    <div class="section-header">
+      <h2 class="section-title">Selected Work</h2>
+      <p class="section-desc">Projects that push boundaries and solve real problems.</p>
+    </div>
+    <div class="portfolio-grid">
+      <div class="project-card project-card--large">
+        <div class="project-thumb" style="background: linear-gradient(135deg, #6366f1, #8b5cf6);">
+          <span class="project-icon">&#9672;</span>
+        </div>
+        <div class="project-info">
+          <span class="project-tag">Brand Identity</span>
+          <h3>Lumina Rebrand</h3>
+          <p>Complete visual identity redesign for a fintech startup, including logo, typography system, and brand guidelines.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb" style="background: linear-gradient(135deg, #f59e0b, #ef4444);">
+          <span class="project-icon">&#9670;</span>
+        </div>
+        <div class="project-info">
+          <span class="project-tag">UI/UX Design</span>
+          <h3>Relay App</h3>
+          <p>Mobile-first messaging platform with focus on accessibility and speed.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb" style="background: linear-gradient(135deg, #10b981, #059669);">
+          <span class="project-icon">&#9679;</span>
+        </div>
+        <div class="project-info">
+          <span class="project-tag">Web Design</span>
+          <h3>Evergreen Studio</h3>
+          <p>Marketing site for a sustainable architecture firm with immersive scroll experiences.</p>
+        </div>
+      </div>
+      <div class="project-card project-card--large">
+        <div class="project-thumb" style="background: linear-gradient(135deg, #3b82f6, #06b6d4);">
+          <span class="project-icon">&#9674;</span>
+        </div>
+        <div class="project-info">
+          <span class="project-tag">Product Design</span>
+          <h3>Wavelength Dashboard</h3>
+          <p>Analytics dashboard for a music streaming service, turning complex data into clear, actionable insights.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb" style="background: linear-gradient(135deg, #ec4899, #a855f7);">
+          <span class="project-icon">&#9733;</span>
+        </div>
+        <div class="project-info">
+          <span class="project-tag">Illustration</span>
+          <h3>Dreamscape Series</h3>
+          <p>Collection of abstract digital illustrations exploring color and form.</p>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb" style="background: linear-gradient(135deg, #64748b, #334155);">
+          <span class="project-icon">&#9632;</span>
+        </div>
+        <div class="project-info">
+          <span class="project-tag">Motion Design</span>
+          <h3>Kinetic Type</h3>
+          <p>Typography-driven motion graphics for social media campaigns.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- YouTube -->
+  <section class="section section--youtube" id="youtube">
+    <div class="section-header">
+      <h2 class="section-title">Latest Videos</h2>
+      <p class="section-desc">Design tutorials, workflows, and creative explorations.</p>
+    </div>
+    <div class="yt-carousel-wrapper">
+      <button class="yt-arrow yt-arrow--left" aria-label="Scroll left">&#8249;</button>
+      <button class="yt-arrow yt-arrow--right" aria-label="Scroll right">&#8250;</button>
+      <div class="yt-carousel">
+        <a href="#" class="yt-card">
+          <div class="yt-card-thumb" style="background: linear-gradient(135deg, #6366f1, #8b5cf6);">
+            <span class="yt-play-icon">&#9654;</span>
+            <span class="yt-card-duration">12:34</span>
+          </div>
+          <div class="yt-card-info">
+            <h4>Design Systems That Scale</h4>
+            <p class="yt-card-meta">8.2K views &middot; 3 days ago</p>
+          </div>
+        </a>
+        <a href="#" class="yt-card">
+          <div class="yt-card-thumb" style="background: linear-gradient(135deg, #f59e0b, #ef4444);">
+            <span class="yt-play-icon">&#9654;</span>
+            <span class="yt-card-duration">18:07</span>
+          </div>
+          <div class="yt-card-info">
+            <h4>My Figma Workflow in 2026</h4>
+            <p class="yt-card-meta">15.1K views &middot; 1 week ago</p>
+          </div>
+        </a>
+        <a href="#" class="yt-card">
+          <div class="yt-card-thumb" style="background: linear-gradient(135deg, #10b981, #059669);">
+            <span class="yt-play-icon">&#9654;</span>
+            <span class="yt-card-duration">22:15</span>
+          </div>
+          <div class="yt-card-info">
+            <h4>Typography Deep Dive</h4>
+            <p class="yt-card-meta">6.7K views &middot; 2 weeks ago</p>
+          </div>
+        </a>
+        <a href="#" class="yt-card">
+          <div class="yt-card-thumb" style="background: linear-gradient(135deg, #3b82f6, #06b6d4);">
+            <span class="yt-play-icon">&#9654;</span>
+            <span class="yt-card-duration">14:52</span>
+          </div>
+          <div class="yt-card-info">
+            <h4>Color Theory for UI</h4>
+            <p class="yt-card-meta">11.3K views &middot; 3 weeks ago</p>
+          </div>
+        </a>
+        <a href="#" class="yt-card">
+          <div class="yt-card-thumb" style="background: linear-gradient(135deg, #ec4899, #a855f7);">
+            <span class="yt-play-icon">&#9654;</span>
+            <span class="yt-card-duration">9:41</span>
+          </div>
+          <div class="yt-card-info">
+            <h4>Portfolio Review Tips</h4>
+            <p class="yt-card-meta">9.8K views &middot; 1 month ago</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section section--about" id="about">
+    <div class="section-header">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-desc">The person behind the pixels.</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-card about-card--bio">
+        <div class="about-avatar">
+          <svg class="avatar-placeholder" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="100" cy="78" r="36" fill="currentColor" opacity="0.15"/>
+            <ellipse cx="100" cy="160" rx="56" ry="36" fill="currentColor" opacity="0.15"/>
+          </svg>
+        </div>
+        <h3>Background</h3>
+        <p>I'm a designer who believes in the power of simplicity. With a background in visual design and product thinking, I create experiences that are intuitive, beautiful, and purposeful.</p>
+        <p>Currently open to freelance projects and collaborations. Let's build something great together.</p>
+      </div>
+      <div class="about-card about-card--contact">
+        <h3>Get in Touch</h3>
+        <div class="about-links-grid">
+          <a href="#" class="about-link-card">
+            <span class="about-link-icon">&#120143;</span>
+            <span>Twitter</span>
+          </a>
+          <a href="#" class="about-link-card">
+            <span class="about-link-icon">&#9673;</span>
+            <span>Dribbble</span>
+          </a>
+          <a href="#" class="about-link-card">
+            <span class="about-link-icon">&#9741;</span>
+            <span>LinkedIn</span>
+          </a>
+          <a href="#" class="about-link-card">
+            <span class="about-link-icon">&#9993;</span>
+            <span>Email</span>
+          </a>
+        </div>
+      </div>
+      <div class="about-card about-card--status">
+        <div class="status-indicator"></div>
+        <span>Available for freelance work</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 Portfolio. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
